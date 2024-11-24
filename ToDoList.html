@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <div class="main">
+        <div class="main-inner">
+            <h1>To-Do List <img src="./images/To-do_icon.svg" alt="check your browser settings"></h1>
+            <div class="search">
+                <input type="text" id="text-box" class="input-error"  placeholder="Write your notes.." required>
+                <button onclick="addNotes()">Add notes</button>
+            </div>
+            <div class="list">
+                <ul id="note-list">
+                </ul>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="clas-footer">
+                <form class="contact-form">
+                    <label for="email">Contact Us:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                    <input type="text" name="email" id="email" placeholder="Enter your Mail ID" required>
+                    <textarea name="message" id="message" placeholder="Your message" required></textarea>
+                    <button type="submit">Send</button>
+                    <p></p>
+                    <p>&copy; BALA (Full Stack Developer). All Rights Reserved.</p>
+                </form>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
