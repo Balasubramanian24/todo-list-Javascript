@@ -10,5 +10,5 @@ Features
 
 Technologies Used
 * Frontend: HTML, CSS, JavaScript
-* Backend (optional): Node.js (if applicable for additional functionality)
-* Database (optional): PostgreSQL (if storing tasks persistently)
+* Backend: Node.js
+* Database: PostgreSQL 
